@@ -1,0 +1,15 @@
+if install a new package, rerun the server
+
+
+shap 跑特徵解釋
+看一下 vicky table 改顏色怎麼寫的
+TWCC shut down server, all data(database) fail
+
+Tom 問一下環境變數
+
+REACT_APP_BACKEND=http://52.69.168.72:3001
+REACT_APP_BACKEND=http://localhost:5001
+
+
+set FLASK_APP=microblog.py
+flask run
