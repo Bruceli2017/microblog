@@ -1,1 +1,32 @@
+! Tom Lee how does he print errors messages to log file?
+
 if install a new package, rerun the server
+
+SHAP 跑特徵解釋
+看一下 vicky table 改顏色怎麼寫的
+TWCC shut down server, all data(database) fail
+
+
+REACT_APP_BACKEND=http://52.69.168.72:3001
+REACT_APP_BACKEND=http://localhost:5001
+
+set FLASK_APP=microblog.py
+flask run
+
+# will abort the session and remove any changes stored in it.
+db.session.rollback()
+
+database 連不上，靠北
+
+account and password:
+susan
+cat
+because the MD5 support in Python works on bytes and not on strings
+
+
+Every time the database is modified it is necessary to generate a database migration. 
+In Chapter 4 I showed you how to set up the application to track database changes through migration scripts. 
+Now I have two new fields that I want to add to the database, so the first step is to generate the migration script:
+
+$ flask db migrate -m "new fields in user model"
+$ flask db upgrade
