@@ -1,4 +1,6 @@
 ! Tom Lee how does he print errors messages to log file?
+! how does SSO works????
+! Finish unit test in Flask tutorial
 
 if install a new package, rerun the server
 
