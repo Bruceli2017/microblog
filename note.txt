@@ -8,12 +8,12 @@ SHAP 跑特徵解釋
 看一下 vicky table 改顏色怎麼寫的
 TWCC shut down server, all data(database) fail
 
-
 REACT_APP_BACKEND=http://52.69.168.72:3001
 REACT_APP_BACKEND=http://localhost:5001
 
 set FLASK_APP=microblog.py
 flask run
+flask shell
 
 # will abort the session and remove any changes stored in it.
 db.session.rollback()
@@ -23,7 +23,12 @@ database 連不上，靠北
 account and password:
 susan
 cat
+2.
+susan2
+cat
+
 because the MD5 support in Python works on bytes and not on strings
+echo %PATH%
 
 
 Every time the database is modified it is necessary to generate a database migration. 
@@ -32,3 +37,26 @@ Now I have two new fields that I want to add to the database, so the first step 
 
 $ flask db migrate -m "new fields in user model"
 $ flask db upgrade
+
+! 密碼和帳號錯誤會抱錯
+
+
+
+!外寄伺服器和連接埠
+
+外寄伺服器 (SMTP)：smtpout.asia.secureserver.net
+SSL 連接埠：465 或 587
+連接埠：80、3535 或 25
+
+set MAIL_SERVER=smtpout.asia.secureserver.net
+set MAIL_PORT=587
+set MAIL_USE_TLS=1
+set MAIL_USERNAME=info@neuralvest.cc
+set MAIL_PASSWORD=
+
+
+(venv) $ export MAIL_SERVER=smtp.googlemail.com
+(venv) $ export MAIL_PORT=587
+(venv) $ export MAIL_USE_TLS=1
+(venv) $ export MAIL_USERNAME=<your-gmail-username>
+(venv) $ export MAIL_PASSWORD=<your-gmail-password>
