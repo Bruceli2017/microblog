@@ -13,3 +13,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['abraver@livemail.tw']
     POSTS_PER_PAGE = 3
+    LANGUAGES = ['en', 'es']

@@ -40,8 +40,6 @@ $ flask db upgrade
 
 ! 密碼和帳號錯誤會抱錯
 
-
-
 !外寄伺服器和連接埠
 
 外寄伺服器 (SMTP)：smtpout.asia.secureserver.net
@@ -60,3 +58,9 @@ set MAIL_PASSWORD=
 (venv) $ export MAIL_USE_TLS=1
 (venv) $ export MAIL_USERNAME=<your-gmail-username>
 (venv) $ export MAIL_PASSWORD=<your-gmail-password>
+
+chapter 7, 10 needs to be done (Email)
+
+flask db
+flask shell
+run
